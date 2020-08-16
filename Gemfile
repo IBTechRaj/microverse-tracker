@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.0'
+gem 'bcrypt', '3.1.15' 
 
 gem 'rubocop', '~>0.81.0'
 
